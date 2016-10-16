@@ -1,0 +1,38 @@
+.weather-app {
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+}
+h1{
+    font-size: 6em;
+}
+.today-weather p:nth-of-type(-n+4){
+    font-size: 2em;
+}
+.today-weather .wi-celsius{
+    font-size: 140%;
+}
+.temp span{
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.today-weather .weather-icon .wi{
+    font-size: 6em;
+    margin: 20px 0;
+}
+h3{
+    margin-left: 5%;
+}
+.future-weather .weather-icon .wi{
+    font-size: 2em;
+}
+.future-weather .wi-celsius{
+    font-size: 150%;
+}
+@keyframes sun {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+.wi-day-sunny{
+    -webkit-animation: sun 8s linear infinite;
+    animation: sun 8s linear infinite;
+}
